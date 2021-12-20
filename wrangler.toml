@@ -1,0 +1,13 @@
+name = "cf-workers-typescript-esmodules-example"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+
+[build]
+command = "yarn install && yarn run build"
+
+[build.upload]
+format = "modules"
+main = "index.mjs"
