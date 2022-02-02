@@ -2,7 +2,7 @@
 
 ## What?
 
-An example of using the new style ESModules syntax for a CF Worker in TypeScript 
+An example of using the new style ESModules syntax for a Cloudflare Worker in TypeScript 
 
 ## Why?
 
@@ -33,7 +33,7 @@ This is deceptively difficult to do and IMO the current solution is effectively 
 }
 ```
 
-- `wrangler.toml`'s `[build]` and `[build.upload]` is configured correctly, with `main` pointing to the output file, *NOTE* this by default is appended to `.dist/`, this can be overriden with a `dir` file (this is documented deeply within the CF docs), `format` within `[build.upload]` is set to `modules` _NOT_ `service-workers`, `[build]`'s `command` by default is set to use `npm` in most examples, but I changed it to `yarn` to show how you'd do it.
+- `wrangler.toml`'s `[build]` and `[build.upload]` is configured correctly, with `main` pointing to the output file, *NOTE* this by default is appended to `.dist/`, this can be overriden with a `dir` file (this is documented deeply within the Clouflare Workers docs), `format` within `[build.upload]` is set to `modules` _NOT_ `service-workers`, `[build]`'s `command` by default is set to use `npm` in most examples, but I changed it to `yarn` to show how you'd do it.
 
 ```toml
 [build]
