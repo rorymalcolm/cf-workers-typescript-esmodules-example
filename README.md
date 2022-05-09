@@ -1,5 +1,13 @@
 # cf-workers-typescript-esmodules-example
 
+This is likely no longer needed, instead use [wrangler2](https://github.com/cloudflare/wrangler2)'s TypeScript option and this will generate an easily deployable skeleton which looks like this example. I'm keeping this in place because the `[build]` component of `wrangler.toml` is useful.
+
+To use `wrangler2` install it using `npm i wrangler`, then `wrangler init` and the instructions while accepting the usage of TypeScript.
+
+```
+Would you like to use TypeScript? (y/n)
+```
+
 ## What?
 
 An example of using the new style ESModules syntax for a Cloudflare Worker in TypeScript 
