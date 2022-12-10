@@ -9,7 +9,7 @@
   "type": "module",
   "module": "./dist/index.mjs",
   "devDependencies": {
-    "@cloudflare/workers-types": "^3.0.0",
+    "@cloudflare/workers-types": "^4.20221111.1",
     "typescript": "^4.3.2"
   }
 }
