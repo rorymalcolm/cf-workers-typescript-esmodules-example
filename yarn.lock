@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudflare/workers-types@^4.20230221.0":
-  version "4.20230221.0"
-  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20230221.0.tgz#d0cca6d1100f5aaf4550db23011a5dc9687a2ef3"
-  integrity sha512-Ge8csuFQMNv3hd8r85PFWv4KV6bHAtKoBaanTkjbbeJS+mizoiBn4OBva0CFQiGfRJklFSGd4OxuCuiK05kogg==
+"@cloudflare/workers-types@^4.20230307.0":
+  version "4.20230307.0"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20230307.0.tgz#58a20fe167a5c48e20edba8e1fbfe4231bcfa223"
+  integrity sha512-Go968aDDcqONHQcUdgIiPRkPdT4QTzD0ecHJsI1u7ZiHPMOoZn+Dy7hYsdUJ5ldX9wTZDrICBM1rDKTRaDUitg==
 
 typescript@^4.9.5:
   version "4.9.5"
