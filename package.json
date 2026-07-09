@@ -10,6 +10,6 @@
   "module": "./dist/index.mjs",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260329.1",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }
